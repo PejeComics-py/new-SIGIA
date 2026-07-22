@@ -1,0 +1,93 @@
+*{
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #88BF50;
+	color: #16558C;
+	overflow: scroll;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+.container {
+	position:relative;
+	overflow: auto;
+}
+
+.image-container{
+	width:100%;
+	height: auto;
+}
+.image-container img {
+	margin-top: 20px;
+	width:150px;
+	height: 150px;
+}
+
+.white-box {
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+	right: 15%;
+	left: 15%;
+	top: 0;
+	height: auto;
+	position:fixed;
+	overflow: auto;
+	min-width: 50rem;
+	max-width: 50rem;
+}
+
+.input-form {
+	padding: 15px;
+}
+
+.input-form .fa-solid {
+	position:absolute;
+	border: 2px solid  #16558C;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 5px 5px 5px 5px;
+	min-width: 50px;
+	min-height: 1.2rem;
+	font-size: 1.5rem;
+}
+
+.input-form input {
+	color: #16558C;
+	border-radius: 20px;
+	border: 2px solid #16558C;
+	height: 2.12rem;
+	width: 20rem;
+	text-align: left;
+	padding: 0px 0px 0px 70px;
+	font-size: 1.2rem;
+}
+
+.input-form input::placeholder {
+	color: rgba(22, 85, 140,0.7);
+}
+
+.white-box input[type=submit] {
+	background-color: #88BF50;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 20px;
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	width: 15rem;
+	height: 2.5rem;
+	border: solid; /*Get rid off annoying default border*/
+}
+
+@media only screen and (max-width: 1050px) {
+	.white-box{
+		min-width: 32rem;
+		max-width: 32rem;
+	}
+}
+
+
